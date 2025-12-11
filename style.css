@@ -501,15 +501,4 @@ body {
         padding: 14px 14px 12px;
     }
 }
-.timeline {
-    position: relative;
-    margin-left: 40px !important;
-}
 
-.timeline::before {
-    left: 0 !important;
-}
-
-.timeline-badge {
-    left: -12px !important;
-}
