@@ -77,6 +77,13 @@ body { max-width: 1440px; margin: 0 auto; }
   color: var(--teal);
   letter-spacing: -0.5px;
 }
+.logo-img {
+  height: 38px;
+  width: 38px;
+  object-fit: contain;
+  display: block;
+  mix-blend-mode: multiply;
+}
 
 .nav-links {
   display: flex;
