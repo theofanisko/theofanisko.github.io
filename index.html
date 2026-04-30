@@ -1,609 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Theofanis Kotsis | QA Lead & Test Coordinator</title>
-
-    <!-- SEO -->
-    <meta name="author" content="Theofanis Kotsis" />
-    <meta name="description" content="Professional portfolio of Theofanis Kotsis, QA Lead & Test Coordinator with strong business and technical background (MSc)." />
-    <meta name="keywords" content="Theofanis Kotsis, QA Lead, Test Coordinator, QA Orchestrator, Data Visualization, Power BI, Banking, Payments" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="imgNew.png" />
-
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
-    <!-- Bootstrap 5 -->
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous"
-    />
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css?v=2">
-
-
-    <!-- Inspectlet (όπως ζήτησες να παραμείνει) -->
-    <script id="inspectletjs" type="text/javascript">
-        window.__insp = window.__insp || [];
-        __insp.push(["wid", 92785244]);
-        (function () {
-            function __ldinsp() {
-                var insp = document.createElement("script");
-                insp.type = "text/javascript";
-                insp.async = true;
-                insp.id = "inspsync";
-                insp.src = (document.location.protocol === "https:" ? "https" : "http") + "://www.inspectlet.com/inspectlet.js";
-                var x = document.getElementsByTagName("script")[0];
-                x.parentNode.insertBefore(insp, x);
-            }
-            if (window.attachEvent) {
-                window.attachEvent("onload", __ldinsp);
-            } else {
-                window.addEventListener("load", __ldinsp, false);
-            }
-        })();
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Theofanis Kotsis – QA Lead & Test Coordinator. 6+ years in enterprise QA governance, automation, and data-driven quality.">
+  <title>Theofanis Kotsis | QA Lead & Test Coordinator</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-nav fixed-top shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-semibold" href="#hero">
-                TK<span class="brand-dot">.</span>
-            </a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#mainNavbar"
-                aria-controls="mainNavbar"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<!-- ── NAV ─────────────────────────────────────────────────── -->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">TK.</a>
+    <ul class="nav-links">
+      <li><a href="#profile">Profile</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="nav-burger" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</nav>
 
-            <div class="collapse navbar-collapse" id="mainNavbar">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3">
-                    <li class="nav-item"><a class="nav-link" href="#profile">Profile</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
+<!-- ── HERO ────────────────────────────────────────────────── -->
+<section id="hero">
+  <div class="container">
+    <div class="hero-badge">
+      <span class="badge-dot"></span>
+      QA Lead &amp; Test Coordinator
+    </div>
+    <h1>
+      <span class="hero-name">Theofanis</span>
+      <span class="hero-name">Kotsis</span>
+      <span class="hero-role">QA Lead.</span>
+    </h1>
+    <p class="hero-desc">
+      Orchestrating QA across complex banking and payments ecosystems.
+      Combining technical depth, business insight, and automation to deliver
+      reliable, data-driven &amp; visualization on quality outcomes.
+    </p>
+    <div class="hero-actions">
+      <a href="#experience" class="btn-primary">View Experience</a>
+      <a href="#contact" class="btn-secondary">Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-n">20+</span>
+        <span class="stat-l">Medium/large-scale projects led</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">40+</span>
+        <span class="stat-l">Concurrent QA initiatives</span>
+      </div>
+      <div class="stat">
+        <span class="stat-n">30–60%</span>
+        <span class="stat-l">Coordination time reduced</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── PROFILE ──────────────────────────────────────────────── -->
+<section id="profile" class="section-alt">
+  <div class="container">
+    <div class="eyebrow reveal">About</div>
+    <h2 class="section-title reveal">Profile</h2>
+    <div class="profile-grid reveal">
+      <div class="profile-photo-wrap">
+        <img src="images/theofanisPro.png" alt="Theofanis Kotsis" class="profile-photo">
+      </div>
+      <div class="profile-content">
+        <p class="profile-subtitle">QA Lead / Coordinator (MSc, Physics &amp; Business)</p>
+        <h3>About Me</h3>
+        <p>A 6+ years results-driven professional with a blend of expertise in QA and business consulting.
+        Holds two MSc degrees, one in Business Management and Organizations and another in Material Science and Physics.</p>
+        <p>Proven experience in enterprise QA governance, KPI-driven data visualization, and cross-team alignment.
+        Focused on process discipline, consistency, and data-driven decision making.
+        Developed a fully automated QA Orchestrator and delivered structured KPI reporting across multiple systems and stakeholders.</p>
+        <p>Strong background in stock forecasting, statistical analysis, machine learning, LSTM modeling, and AI.
+        Passionate about building automated QA orchestration systems and KPI-driven analytics that modernize testing operations
+        and deliver scalable, data-grounded quality across enterprise platforms.</p>
+        <div class="profile-details">
+          <div class="detail">
+            <span class="detail-label">Name</span>
+            <span class="detail-value">Theofanis Kotsis</span>
+          </div>
+          <div class="detail">
+            <span class="detail-label">Location</span>
+            <span class="detail-value">Thessaloniki, Greece</span>
+          </div>
+          <div class="detail">
+            <span class="detail-label">Role Focus</span>
+            <span class="detail-value">QA Leadership, Test Coordination, Automation Governance</span>
+          </div>
         </div>
-    </nav>
-
-    <!-- HERO -->
-    <header id="hero" class="hero-section">
-        <div class="container h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
-                    <p class="hero-kicker text-uppercase">QA Lead & Test Coordinator</p>
-                    <h1 class="hero-title">Theofanis Kotsis</h1>
-                    <p class="hero-subtitle">
-                        Orchestrating QA across complex banking and payments ecosystems.  
-                        Combining technical depth, business insight, and automation to deliver
-                        reliable, data-driven & visualization on quality outcomes.
-                    </p>
-                    <div class="hero-actions">
-                        <a href="#experience" class="btn btn-primary btn-lg me-2">View Experience</a>
-                        <a href="#contact" class="btn btn-outline-light btn-lg">Get in Touch</a>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-12 text-center">
-                    <div class="hero-photo-wrapper">
-                        <div class="hero-photo-ring"></div>
-                        <img src="images/theofanisPro.png" alt="Theofanis Kotsis" class="hero-photo" />
-                    </div>
-                </div>
-            </div>
+        <div class="highlights">
+          <h3>Highlights</h3>
+          <ul>
+            <li>QA Lead for 20+ medium/large-scale projects</li>
+            <li>Portfolio of 40+ concurrent QA initiatives</li>
+            <li>Custom QA Orchestrator for automated reporting</li>
+            <li>Power BI dashboards for KPIs &amp; risk</li>
+            <li>Strong mix of technical &amp; business skills</li>
+          </ul>
         </div>
-    </header>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- PROFILE -->
-    <section id="profile" class="section-base bg-white">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Profile</h2>
-                <p class="section-subtitle">QA Lead / Coordinator (MSc, Physics & Business)</p>
-            </div>
+<!-- ── EXPERIENCE ────────────────────────────────────────────── -->
+<section id="experience">
+  <div class="container">
+    <div class="eyebrow reveal">QA, consulting, engineering.</div>
+    <h2 class="section-title reveal">Experience</h2>
+    <div class="timeline">
 
-            <div class="row align-items-start g-4">
-                <!-- About -->
-                <div class="col-lg-6">
-                    <h3 class="section-block-title">About Me</h3>
-                    <p class="mb-3 text-justify">
-                        A 6+ years results-driven professional with a blend of expertise in QA and business consulting.
-                        Holds two MSc degrees, one in
-                        Business Management and Organizations and another in Material Science and Physics.
-                    </p>
-                    <p class="mb-3 text-justify">
-                        Proven experience in enterprise QA governance, KPI-driven data visualization, and cross-team alignment. 
-                        Focused on process discipline, consistency, and data-driven decision making. 
-                        Developed a fully automated QA Orchestrator and delivered structured KPI reporting across multiple systems and stakeholders.
-                    </p>
-                    <p class="mb-3 text-justify">
-                        Strong background in stock forecasting, statistical analysis, machine learning, LSTM modeling,
-                        and AI.
-                    </p>
-                    <p class="mb-0 text-justify">
-                        Passionate about building automated QA orchestration systems and 
-                        KPI-driven analytics that modernize testing operations and deliver scalable, 
-                        data-grounded quality across enterprise platforms.
-                    </p>
-                </div>
-
-                <!-- Details -->
-                <div class="col-lg-3">
-                    <div class="info-card">
-                        <h3 class="section-block-title">Details</h3>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-3">
-                                <span class="info-label">Name</span><br />
-                                <span class="info-value">Theofanis Kotsis</span>
-                            </li>
-                            <li class="mb-3">
-                                <span class="info-label">Location</span><br />
-                                <span class="info-value">Thessaloniki, Greece</span>
-                            </li>
-                            <li class="mb-0">
-                                <span class="info-label">Role Focus</span><br />
-                                <span class="info-value">QA Leadership, Test Coordination, Automation Governance</span>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Highlights -->
-                <div class="col-lg-3">
-                    <div class="info-card">
-                        <h3 class="section-block-title">Highlights</h3>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-2">• QA Lead for 20+ medium/large-scale projects</li>
-                            <li class="mb-2">• Portfolio of 40+ concurrent QA initiatives</li>
-                            <li class="mb-2">• Custom QA Orchestrator for automated reporting</li>
-                            <li class="mb-2">• Power BI dashboards for KPIs & risk</li>
-                            <li class="mb-0">• Strong mix of technical & business skills</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <div class="tl-item current reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-header">
+            <h3 class="tl-role">QA Coordinator</h3>
+            <span class="tl-period">Sept 2023 – Present</span>
+          </div>
+          <div class="tl-company">ACCENTURE · Thessaloniki, Greece</div>
+          <ul class="tl-list">
+            <li>Lead QA activities for 24 medium/large-scale Payments and Remittance projects in a top-tier systemic Greek bank.</li>
+            <li>Manage a portfolio of 45+ concurrent QA projects across 10+ core banking systems, ensuring quality and timely delivery.</li>
+            <li>Innovated and developed Risk Projection AI Agent for +100 projects, reducing manual coordination time by 30–60%, fully automating.</li>
+            <li>Designed automated consolidated risk reporting via email, along with weekly logs, governance controls, and full audit trails.</li>
+            <li>Built and delivered Power BI dashboards to track and visualize KPIs across the SDLC.</li>
+            <li>Established standardized operating procedures (SOPs) for the Regression phase and supervised their application across projects.</li>
+            <li>Enabled regression for 44 systems, providing quarterly KPI-based insights via a custom dashboard to Asset Owners, enabling targeted process improvements and strategic decisions.</li>
+            <li>Empowered teams by enforcing QA methodology and process discipline, promoting consistency, standardization, and continuous improvement.</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="section-base bg-alt">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Experience</h2>
-                <p class="section-subtitle">QA, consulting, engineering.</p>
-            </div>
-
-            <div class="timeline">
-            
-                <!-- ACCENTURE -->
-                <article class="timeline-item">
-                    <div class="timeline-badge"></div>
-                    <div class="timeline-panel">
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h3 class="timeline-title">QA Coordinator</h3>
-                            <span class="timeline-company">ACCENTURE</span>
-                        </div>
-                        <div class="timeline-meta mb-2">
-                            <span class="badge rounded-pill bg-primary-soft me-2">Sept 2023 – Present</span>
-                            <span class="text-muted">Thessaloniki, Greece</span>
-                        </div>
-                        <p class="timeline-body">
-                            Lead QA activities for 24 medium/large-scale Payments and Remittance projects in a top-tier systemic Greek bank.
-                            Manage a portfolio of 45+ concurrent QA projects across 10+ core banking systems, ensuring quality and timely delivery.
-                            Innovated and developed custom QA Orchestrator, reducing manual coordination time by 30–60%, fully automating previously manual processes, minimizing error risk, and enabling scale-up from 18 to 40+ projects without added overhead.
-                            Designed automated consolidated risk reporting via email, along with weekly logs, governance controls, and full audit trails.
-                            Built and delivered Power BI dashboards to track and visualize KPIs across the SDLC.
-                            Established standardized operating procedures (SOPs) for Regression phase and supervised their application across projects.
-                            Enabled regression for 44 systems, providing quarterly KPI based insights via a custom dashboard to Asset Owners, enabling targeted process improvements and strategic decisions.
-                            Empowered teams by enforcing QA methodology and process discipline across teams, promoting consistency, standardization, and continuous improvement.
-
-                        </p>
-                    </div>
-                </article>
-
-                <!-- NINEPOS -->
-                <article class="timeline-item">
-                    <div class="timeline-badge"></div>
-                    <div class="timeline-panel">
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h3 class="timeline-title">Technical Consultant</h3>
-                            <span class="timeline-company">NINEPOS</span>
-                        </div>
-                        <div class="timeline-meta mb-2">
-                            <span class="badge rounded-pill bg-primary-soft me-2">Mar 2022 – Sept 2023</span>
-                            <span class="text-muted">Thessaloniki, Greece</span>
-                        </div>
-                        <p class="timeline-body">
-                            Nurturing and managing a portfolio of 200+ customers. Trained and supervised a team of 20 sales professionals,
-                            ensuring deep product knowledge and effective solution delivery. Collaborated with cross-functional teams
-                            to align technical solutions with business objectives, using agile practices to shorten delivery cycles.
-                            Led documentation of procedures and manuals for two applications, and designed BI solutions that improved
-                            client’s accounting processes.
-                        </p>
-                    </div>
-                </article>
-                
-
-                <!-- Linardos -->
-                <article class="timeline-item">
-                    <div class="timeline-badge"></div>
-                    <div class="timeline-panel">
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h3 class="timeline-title">Process Control Engineer</h3>
-                            <span class="timeline-company">Linardos Net</span>
-                        </div>
-                        <div class="timeline-meta mb-2">
-                            <span class="badge rounded-pill bg-primary-soft me-2">Oct 2020 – Mar 2022</span>
-                            <span class="text-muted">Thessaloniki, Greece</span>
-                        </div>
-                        <p class="timeline-body">
-                            Managed process control projects to ensure quality and consistency. Designed and implemented control systems
-                            to improve process efficiency and product quality. Developed and maintained control documentation and performed
-                            root-cause analysis to resolve control system issues.
-                        </p>
-                    </div>
-                </article>
-
-                <!-- Master Thesis Researcher (UoI) -->
-                <article class="timeline-item">
-                    <div class="timeline-badge"></div>
-                    <div class="timeline-panel">
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h3 class="timeline-title">Master Thesis Researcher & Data Scientist</h3>
-                            <span class="timeline-company">University of Ioannina</span>
-                        </div>
-                        <div class="timeline-meta mb-2">
-                            <span class="badge rounded-pill bg-primary-soft me-2">Oct 2019 – Dec 2021</span>
-                            <span class="text-muted">Preveza / Thessaloniki, Greece</span>
-                        </div>
-                        <p class="timeline-body">
-                            Researched stock forecasting using statistical analysis, machine learning, and LSTM models. Developed
-                            deep learning models with Python, using time-series data to predict stock prices and evaluate portfolio performance.
-                            Applied advanced statistics, neural networks, and quantitative methods to improve forecast accuracy and
-                            communicate insights to academic and professional audiences.
-                        </p>
-                    </div>
-                </article>
-
-                <!-- SEP Markets -->
-                <article class="timeline-item">
-                    <div class="timeline-badge"></div>
-                    <div class="timeline-panel">
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h3 class="timeline-title">Business Process Engineer</h3>
-                            <span class="timeline-company">SEP Markets</span>
-                        </div>
-                        <div class="timeline-meta mb-2">
-                            <span class="badge rounded-pill bg-primary-soft me-2">Aug 2017 – Jun 2019</span>
-                            <span class="text-muted">Ioannina, Greece</span>
-                        </div>
-                        <p class="timeline-body">
-                            Developed and implemented product strategies aligned with business goals. Led process improvements that resulted
-                            in a 15% productivity increase and a 10% cost reduction. Drove project timelines with a 20-person cross-functional team,
-                            reduced shrinkage by 12%, and improved customer loyalty by 8% through enhanced service quality.
-                        </p>
-                    </div>
-                </article>
-
-                <!-- Terre des Hommes -->
-                <article class="timeline-item">
-                    <div class="timeline-badge"></div>
-                    <div class="timeline-panel">
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h3 class="timeline-title">Quality Services Associate</h3>
-                            <span class="timeline-company">Terre des Hommes</span>
-                        </div>
-                        <div class="timeline-meta mb-2">
-                            <span class="badge rounded-pill bg-primary-soft me-2">2016 – Aug 2017</span>
-                            <span class="text-muted">Ioannina, Greece</span>
-                        </div>
-                        <p class="timeline-body">
-                            Supported 80+ vulnerable children through educational activities and quality assurance measures.
-                            Ensured compliance with international standards, improving program effectiveness by 20%.
-                            Built partnerships with local organizations and facilitated training on child protection and safeguarding.
-                        </p>
-                    </div>
-                </article>
-
-                <!-- Aristotle University -->
-                <article class="timeline-item">
-                    <div class="timeline-badge"></div>
-                    <div class="timeline-panel">
-                        <div class="d-flex justify-content-between align-items-center mb-1">
-                            <h3 class="timeline-title">Master Thesis Researcher & Lab Technician</h3>
-                            <span class="timeline-company">Aristotle University of Thessaloniki</span>
-                        </div>
-                        <div class="timeline-meta mb-2">
-                            <span class="badge rounded-pill bg-primary-soft me-2">Oct 2013 – Jul 2016</span>
-                            <span class="text-muted">Thessaloniki, Greece</span>
-                        </div>
-                        <p class="timeline-body">
-                            Worked on synthesis and characterization of graphene and other 2D materials. Optimized growth conditions and catalyst
-                            performance, conducted microscopy and spectroscopy measurements, and maintained lab equipment and safety protocols.
-                            Produced detailed reports and contributed to research outputs.
-                        </p>
-                    </div>
-                </article>
-
-            </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-header">
+            <h3 class="tl-role">Technical Consultant</h3>
+            <span class="tl-period">Mar 2022 – Sept 2023</span>
+          </div>
+          <div class="tl-company">NINEPOS · Thessaloniki, Greece</div>
+          <ul class="tl-list">
+            <li>Nurtured and managed a portfolio of 200+ customers ensuring satisfaction and retention.</li>
+            <li>Trained and supervised a team of 20 sales professionals, ensuring deep product knowledge and effective solution delivery.</li>
+            <li>Collaborated with cross-functional teams to align technical solutions with business objectives, using agile practices to shorten delivery cycles.</li>
+            <li>Led documentation of procedures and manuals for two applications.</li>
+            <li>Designed BI solutions that improved client's accounting processes.</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section-base bg-white">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Skills & Tools</h2>
-                <p class="section-subtitle">Blend of QA leadership, analytics, and technical depth.</p>
-            </div>
-
-            <div class="row g-4">
-                <!-- QA & Business -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="skill-card">
-                        <h3 class="skill-category">QA & Delivery</h3>
-                        <ul class="list-unstyled mb-0">
-                            <li>Team Supervision & Mentorship</li>
-                            <li>QA Leadership & Coordination</li>
-                            <li>QA Orchestration</li>
-                            <li>Regression Strategy & Governance</li>                            
-                            <li>Defect Management & Root Cause Analysis</li>  
-                        </ul>
-                    </div>
-                </div>
-                
-                <!-- Analytics & Data -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="skill-card">
-                        <h3 class="skill-category">Analytics & Data</h3>
-                        <ul class="list-unstyled mb-0">
-                            <li>Statistical Analysis & Quantitative Methods</li>
-                            <li>Python (data, modeling, automation)</li>
-                            <li>Machine Learning & LSTM Modeling</li>
-                            <li>KPI tracking</li>
-                            <li>SQL & data manipulation</li>
-                        </ul>
-                    </div>
-                </div>
-
-                           
-                <!-- Tools & Platforms -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="skill-card">
-                        <h3 class="skill-category">Tools & Platforms</h3>
-                        <ul class="list-unstyled mb-0">
-                            <li>Azure DevOps</li>
-                            <li>Power Automate</li>
-                            <li>ERP / CRM Systems</li>
-                            <li>Tableau & Power BI</li>
-                        </ul>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Languages -->
-            <div class="row g-4 mt-4">
-                <div class="col-lg-6">
-                    <div class="skill-card">
-                        <h3 class="skill-category">Languages</h3>
-                        <ul class="list-unstyled mb-0">
-                            <li>Greek – Native</li>
-                            <li>English – Professional Proficiency</li>
-                            <li>German – A1</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-header">
+            <h3 class="tl-role">Process Control Engineer</h3>
+            <span class="tl-period">Oct 2020 – Mar 2022</span>
+          </div>
+          <div class="tl-company">Linardos Net · Thessaloniki, Greece</div>
+          <ul class="tl-list">
+            <li>Managed process control projects to ensure quality and consistency across operations.</li>
+            <li>Designed and implemented control systems to improve process efficiency and product quality.</li>
+            <li>Developed and maintained control documentation.</li>
+            <li>Performed root-cause analysis to resolve control system issues.</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section-base bg-alt">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Academic Projects</h2>
-                <p class="section-subtitle">Selected MSc theses and research work.</p>
-            </div>
-
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="project-card">
-                        <div class="project-image-wrapper">
-                            <img src="images/MBA.png" alt="MBA Thesis" class="project-image" />
-                        </div>
-                        <div class="project-body">
-                            <h3 class="project-title">MSc Thesis – Business & Finance</h3>
-                            <p class="project-tags">
-                                Python · TensorFlow · Keras · LSTM · Statistics · Sharpe Ratio · Efficient Frontier
-                            </p>
-                            <p class="project-desc">
-                                “Stock Portfolio Performance Forecasting through Dynamic and Contrarian Investment Strategies in the Greek Stock Market.”
-                            </p>
-                            <a href="https://drive.google.com/file/d/1ZLxgAX5lVGS67xEU6QBIhXBgGe8Rcoxr/view?usp=sharing" target="_blank" class="project-link">
-                                View thesis
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="project-card">
-                        <div class="project-image-wrapper">
-                            <img src="images/BusinessDevelopment.png" alt="Business Project" class="project-image" />
-                        </div>
-                        <div class="project-body">
-                            <h3 class="project-title">Business Development Project</h3>
-                            <p class="project-tags">
-                                Organizational Structure · Business Development
-                            </p>
-                            <p class="project-desc">
-                                Analysis of how the organizational structure drives development, progress, and success for the Metropolis of Lefkas and Ithaca.
-                            </p>
-                            <a href="https://drive.google.com/file/d/18_Y0Cah-YgW1H_bCW6XEhoD2Vtp5ZoN7/view?usp=sharing" target="_blank" class="project-link">
-                                View project
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="project-card">
-                        <div class="project-image-wrapper">
-                            <img src="images/GrapheneLayer.png" alt="Graphene Project" class="project-image" />
-                        </div>
-                        <div class="project-body">
-                            <h3 class="project-title">MSc Thesis – Materials & Physics</h3>
-                            <p class="project-tags">
-                                Graphene · Nanoparticles · Raman · SEM · Materials Science
-                            </p>
-                            <p class="project-desc">
-                                “Catalyst development for production of nanostructured graphene” with a focus on synthesis, characterization, and optimization.
-                            </p>
-                            <a href="http://ikee.lib.auth.gr/record/286929/files/GRI-2017-18213.pdf" target="_blank" class="project-link">
-                                View thesis
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-header">
+            <h3 class="tl-role">Master Thesis Researcher &amp; Data Scientist</h3>
+            <span class="tl-period">Oct 2019 – Dec 2021</span>
+          </div>
+          <div class="tl-company">University of Ioannina · Greece</div>
+          <ul class="tl-list">
+            <li>Researched stock forecasting using statistical analysis, machine learning, and LSTM models.</li>
+            <li>Developed deep learning models with Python, using time-series data to predict stock prices and evaluate portfolio performance.</li>
+            <li>Applied advanced statistics, neural networks, and quantitative methods to improve forecast accuracy.</li>
+            <li>Communicated insights to academic and professional audiences.</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <!-- EDUCATION -->
-    <section id="education" class="section-base bg-white">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="section-title">Education</h2>
-                <p class="section-subtitle">Two MSc degrees and a solid Physics foundation.</p>
-            </div>
-
-            <div class="row g-4">
-                <!-- MSc Business -->
-                <div class="col-md-4">
-                    <div class="edu-card">
-                        <h3 class="edu-title">MSc in Business & Organization Management</h3>
-                        <p class="edu-institution">University of Ioannina</p>
-                        <p class="edu-meta">Graduated: 2019 – Distinction (Grade 8.83)</p>
-                        <p class="edu-body">
-                            Modules: Financial analysis, Business valuation, Administrative Management, HR & labor relations,
-                            Quantitative decision techniques, Probability & Statistics, Accounting systems & ERP, Project management.
-                        </p>
-                        <p class="edu-body">
-                            Thesis (100%): “Stock Portfolio Performance Forecasting through Dynamic and Contrarian Investment Strategies
-                            in the Greek Stock Market” using LSTM, Keras, TensorFlow, Sharpe Ratio, and Efficient Frontier.
-                        </p>
-                        <a href="https://master.accfin.uoi.gr/" target="_blank" class="edu-link">Program website</a>
-                    </div>
-                </div>
-
-                <!-- MSc Materials & Physics -->
-                <div class="col-md-4">
-                    <div class="edu-card">
-                        <h3 class="edu-title">MSc in Materials Science & Physics</h3>
-                        <p class="edu-institution">Aristotle University of Thessaloniki</p>
-                        <p class="edu-meta">Graduated: 2016 – Distinction (Grade 8.41)</p>
-                        <p class="edu-body">
-                            Modules: Materials optimization & selection, Characterization techniques, Industrial materials,
-                            Research methodology, Electronics, Quantum theory, Electrodynamics, Probability & Statistics.
-                        </p>
-                        <p class="edu-body">
-                            Thesis (100%): “Catalyst development for production of nanostructured graphene”.
-                        </p>
-                        <a href="http://pms.physics.auth.gr/materials/?lang=en" target="_blank" class="edu-link">Program website</a>
-                    </div>
-                </div>
-
-                <!-- BSc Physics -->
-                <div class="col-md-4">
-                    <div class="edu-card">
-                        <h3 class="edu-title">BSc in Physics</h3>
-                        <p class="edu-institution">University of Ioannina</p>
-                        <p class="edu-meta">Graduated: 2012</p>
-                        <p class="edu-body">
-                            Modules: C/C++ programming, Web applications, Computational physics, Linear algebra, Differential equations,
-                            Vector calculus, Probability & Statistics, Analog & Digital Electronics, Quantum theory, Electrodynamics.
-                        </p>
-                        <a href="http://www.physics.uoi.gr/en" target="_blank" class="edu-link">Department website</a>
-                    </div>
-                </div>
-            </div>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-header">
+            <h3 class="tl-role">Business Process Engineer</h3>
+            <span class="tl-period">Aug 2017 – Jun 2019</span>
+          </div>
+          <div class="tl-company">SEP Markets · Ioannina, Greece</div>
+          <ul class="tl-list">
+            <li>Developed and implemented product strategies aligned with business goals.</li>
+            <li>Led process improvements resulting in a 15% productivity increase and a 10% cost reduction.</li>
+            <li>Drove project timelines with a 20-person cross-functional team.</li>
+            <li>Reduced shrinkage by 12% and improved customer loyalty by 8% through enhanced service quality.</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section-base contact-section">
-        <div class="container">
-            <div class="section-header text-center text-white">
-                <h2 class="section-title text-white">Contact</h2>
-                <p class="section-subtitle text-white-50">
-                    “We are what we repeatedly do. Excellence, then, is not an act, but a habit.” – Aristotle
-                </p>
-            </div>
-
-            <div class="row justify-content-center g-4">
-                <div class="col-md-6">
-                    <div class="contact-card">
-                        <h3 class="contact-title">Connect</h3>
-                        <ul class="list-unstyled mb-0">
-                            <li class="mb-3">
-                                <a href="https://www.linkedin.com/in/theofanis-kotsis/" target="_blank" class="contact-link">
-                                    <span class="contact-icon">in</span>
-                                    <span>linkedin.com/in/theofanis-kotsis/</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:theofanisko@gmail.com" class="contact-link">
-                                    <span class="contact-icon">@</span>
-                                    <span>theofanisko@gmail.com</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-header">
+            <h3 class="tl-role">Quality Services Associate</h3>
+            <span class="tl-period">2016 – Aug 2017</span>
+          </div>
+          <div class="tl-company">Terre des Hommes · Ioannina, Greece</div>
+          <ul class="tl-list">
+            <li>Supported 80+ vulnerable children through educational activities and quality assurance measures.</li>
+            <li>Ensured compliance with international standards, improving program effectiveness by 20%.</li>
+            <li>Built partnerships with local organizations.</li>
+            <li>Facilitated training on child protection and safeguarding.</li>
+          </ul>
         </div>
-    </section>
+      </div>
 
-    <!-- FOOTER -->
-    <footer class="footer text-center">
-        <div class="container">
-            <p class="mb-0">
-                © <span id="year"></span> Theofanis Kotsis · QA Lead & Test Coordinator
-            </p>
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-content">
+          <div class="tl-header">
+            <h3 class="tl-role">Master Thesis Researcher &amp; Lab Technician</h3>
+            <span class="tl-period">Oct 2013 – Jul 2016</span>
+          </div>
+          <div class="tl-company">Aristotle University of Thessaloniki · Greece</div>
+          <ul class="tl-list">
+            <li>Worked on synthesis and characterization of graphene and other 2D materials.</li>
+            <li>Optimized growth conditions and catalyst performance.</li>
+            <li>Conducted microscopy and spectroscopy measurements.</li>
+            <li>Maintained lab equipment and safety protocols.</li>
+            <li>Produced detailed reports and contributed to research outputs.</li>
+          </ul>
         </div>
-    </footer>
+      </div>
 
-    <!-- Bootstrap JS -->
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"
-    ></script>
+    </div>
+  </div>
+</section>
 
-    <!-- Small JS just for year -->
-    <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
+<!-- ── SKILLS ───────────────────────────────────────────────── -->
+<section id="skills" class="section-alt">
+  <div class="container">
+    <div class="eyebrow reveal">Expertise</div>
+    <h2 class="section-title reveal">Skills &amp; Tools</h2>
+    <p class="section-sub reveal">Blend of QA leadership, analytics, and technical depth.</p>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">◎</div>
+        <h3 class="skill-title">QA &amp; Delivery</h3>
+        <div class="tags">
+          <span class="tag">Team Supervision &amp; Mentorship</span>
+          <span class="tag">QA Leadership &amp; Coordination</span>
+          <span class="tag">QA Orchestration</span>
+          <span class="tag">Regression Strategy &amp; Governance</span>
+          <span class="tag">Defect Management &amp; Root Cause Analysis</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">∿</div>
+        <h3 class="skill-title">Analytics &amp; Data</h3>
+        <div class="tags">
+          <span class="tag">Statistical Analysis &amp; Quantitative Methods</span>
+          <span class="tag">Python (data, modeling, automation)</span>
+          <span class="tag">Machine Learning &amp; LSTM Modeling</span>
+          <span class="tag">KPI tracking</span>
+          <span class="tag">SQL &amp; data manipulation</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">⬡</div>
+        <h3 class="skill-title">Tools &amp; Platforms</h3>
+        <div class="tags">
+          <span class="tag">Azure DevOps</span>
+          <span class="tag">Power Automate</span>
+          <span class="tag">ERP / CRM Systems</span>
+          <span class="tag">Tableau &amp; Power BI</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-icon">◈</div>
+        <h3 class="skill-title">Languages</h3>
+        <div class="tags">
+          <span class="tag">Greek – Native</span>
+          <span class="tag">English – Professional Proficiency</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── PROJECTS ──────────────────────────────────────────────── -->
+<section id="projects">
+  <div class="container">
+    <div class="eyebrow reveal">Work</div>
+    <h2 class="section-title reveal">Academic Projects</h2>
+    <p class="section-sub reveal">Selected MSc theses and research work.</p>
+    <div class="projects-grid">
+
+      <div class="proj-card reveal">
+        <div class="proj-thumb">
+          <img src="images/MBA.png" alt="MBA Thesis">
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags">
+            <span class="proj-tag">Python</span>
+            <span class="proj-tag">TensorFlow</span>
+            <span class="proj-tag">Keras</span>
+            <span class="proj-tag">LSTM</span>
+            <span class="proj-tag">Statistics</span>
+            <span class="proj-tag">Sharpe Ratio</span>
+            <span class="proj-tag">Efficient Frontier</span>
+          </div>
+          <h3>MSc Thesis – Business &amp; Finance</h3>
+          <p>"Stock Portfolio Performance Forecasting through Dynamic and Contrarian Investment Strategies in the Greek Stock Market."</p>
+          <a href="https://drive.google.com/file/d/1ZLxgAX5lVGS67xEU6QBIhXBgGe8Rcoxr/view?usp=sharing" target="_blank" class="proj-link">View thesis →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-thumb">
+          <img src="images/BusinessDevelopment.png" alt="Business Development Project">
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags">
+            <span class="proj-tag">Organizational Structure</span>
+            <span class="proj-tag">Business Development</span>
+          </div>
+          <h3>Business Development Project</h3>
+          <p>Analysis of how the organizational structure drives development, progress, and success for the Metropolis of Lefkas and Ithaca.</p>
+          <a href="https://drive.google.com/file/d/18_Y0Cah-YgW1H_bCW6XEhoD2Vtp5ZoN7/view?usp=sharing" target="_blank" class="proj-link">View project →</a>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <div class="proj-thumb">
+          <img src="images/GrapheneLayer.png" alt="Graphene Project">
+        </div>
+        <div class="proj-body">
+          <div class="proj-tags">
+            <span class="proj-tag">Graphene</span>
+            <span class="proj-tag">Nanoparticles</span>
+            <span class="proj-tag">Raman</span>
+            <span class="proj-tag">SEM</span>
+            <span class="proj-tag">Materials Science</span>
+          </div>
+          <h3>MSc Thesis – Materials &amp; Physics</h3>
+          <p>"Catalyst development for production of nanostructured graphene" with a focus on synthesis, characterization, and optimization.</p>
+          <a href="http://ikee.lib.auth.gr/record/286929/files/GRI-2017-18213.pdf" target="_blank" class="proj-link">View thesis →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION ─────────────────────────────────────────────── -->
+<section id="education" class="section-alt">
+  <div class="container">
+    <div class="eyebrow reveal">Background</div>
+    <h2 class="section-title reveal">Education</h2>
+    <p class="section-sub reveal">Two MSc degrees and a solid Physics foundation.</p>
+    <div class="edu-list">
+
+      <div class="edu-item reveal">
+        <div class="edu-badge">M</div>
+        <div class="edu-content">
+          <h3>MSc in Business &amp; Organization Management</h3>
+          <div class="edu-university">University of Ioannina</div>
+          <div class="edu-meta">Graduated: 2019 – Distinction (Grade 8.83)</div>
+          <p>Modules: Financial analysis, Business valuation, Administrative Management, HR &amp; labor relations,
+          Quantitative decision techniques, Probability &amp; Statistics, Accounting systems &amp; ERP, Project management.</p>
+          <p>Thesis (100%): "Stock Portfolio Performance Forecasting through Dynamic and Contrarian Investment Strategies
+          in the Greek Stock Market" using LSTM, Keras, TensorFlow, Sharpe Ratio, and Efficient Frontier.</p>
+          <a href="https://master.accfin.uoi.gr/" target="_blank" class="edu-link">Program website →</a>
+        </div>
+      </div>
+
+      <div class="edu-item reveal">
+        <div class="edu-badge">M</div>
+        <div class="edu-content">
+          <h3>MSc in Materials Science &amp; Physics</h3>
+          <div class="edu-university">Aristotle University of Thessaloniki</div>
+          <div class="edu-meta">Graduated: 2016 – Distinction (Grade 8.41)</div>
+          <p>Modules: Materials optimization &amp; selection, Characterization techniques, Industrial materials,
+          Research methodology, Electronics, Quantum theory, Electrodynamics, Probability &amp; Statistics.</p>
+          <p>Thesis (100%): "Catalyst development for production of nanostructured graphene".</p>
+          <a href="http://pms.physics.auth.gr/materials/?lang=en" target="_blank" class="edu-link">Program website →</a>
+        </div>
+      </div>
+
+      <div class="edu-item reveal">
+        <div class="edu-badge">B</div>
+        <div class="edu-content">
+          <h3>BSc in Physics</h3>
+          <div class="edu-university">University of Ioannina</div>
+          <div class="edu-meta">Graduated: 2012</div>
+          <p>Modules: C/C++ programming, Web applications, Computational physics, Linear algebra, Differential equations,
+          Vector calculus, Probability &amp; Statistics, Analog &amp; Digital Electronics, Quantum theory, Electrodynamics.</p>
+          <a href="http://www.physics.uoi.gr/en" target="_blank" class="edu-link">Department website →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ───────────────────────────────────────────────── -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <blockquote class="contact-quote">
+      "We are what we repeatedly do. Excellence, then, is not an act, but a habit." – Aristotle
+    </blockquote>
+    <h2>Connect</h2>
+    <p class="contact-sub">Reach out via email or LinkedIn.</p>
+    <a href="mailto:theofanisko@gmail.com" class="contact-email">theofanisko@gmail.com</a>
+    <div class="contact-links">
+      <a href="https://www.linkedin.com/in/theofanis-kotsis/" target="_blank" class="contact-link">
+        LinkedIn
+      </a>
+      <a href="mailto:theofanisko@gmail.com" class="contact-link">
+        Email
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ────────────────────────────────────────────────── -->
+<footer>
+  <div class="container footer-inner">
+    <span>© Theofanis Kotsis · QA Lead &amp; Test Coordinator</span>
+    <span>Thessaloniki, Greece</span>
+  </div>
+</footer>
+
+<script>
+  // ── Scroll-reveal
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // ── Mobile nav toggle
+  const burger   = document.querySelector('.nav-burger');
+  const navLinks = document.querySelector('.nav-links');
+  if (burger) {
+    burger.addEventListener('click', () => navLinks.classList.toggle('open'));
+    navLinks.querySelectorAll('a').forEach(a =>
+      a.addEventListener('click', () => navLinks.classList.remove('open'))
+    );
+  }
+
+  // ── Scroll shadow on nav
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 10);
+  }, { passive: true });
+</script>
+
 </body>
 </html>
